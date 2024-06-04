@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проектирование в AR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .service {
+            background-color: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .service h2 {
+            margin-top: 0;
+        }
+        .service p {
+            margin: 0.5rem 0;
+        }
+        .service button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .service button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Проектирование объектов в дополненной реальности</h1>
+        <p>Будущее строительства уже здесь</p>
+    </header>
+    <div class="container">
+        <div class="service">
+            <h2>Базовое проектирование</h2>
+            <p>Предоставление базовых чертежей и визуализация в AR.</p>
+            <p>Цена: 50 000 рублей</p>
+            <button>Заказать</button>
+        </div>
+        <div class="service">
+            <h2>Расширенное проектирование</h2>
+            <p>Подробные чертежи, визуализация в AR и инженерные расчеты.</p>
+            <p>Цена: 100 000 рублей</p>
+            <button>Заказать</button>
+        </div>
+        <div class="service">
+            <h2>Полное сопровождение проекта</h2>
+            <p>От идеи до реализации, с использованием AR на всех этапах.</p>
+            <p>Цена: 200 000 рублей</p>
+            <button>Заказать</button>
+        </div>
+    </div>
+</body>
+</html>
